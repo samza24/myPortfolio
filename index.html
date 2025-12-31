@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Header -->
     <header>
       <img src="IMG-20250921-WA0012.png" alt="Profile Picture" />
       <div class="container">
@@ -19,7 +20,22 @@
           development, I enjoy bringing ideas to life through clean design and
           functional code.
         </p>
-        <a class="red-more" href="#">Read More</a>
+        <br />
+
+        <input type="checkbox" id="toggle-more" class="visually-hidden" />
+
+        <p id="more-info">
+          Beyond coding, I’m a chess enthusiast who loves strategic thinking and
+          problem solving. I enjoy tackling complex puzzles and sharpening my
+          analytical skills through chess. I’m also passionate about solving
+          algorithmic challenges on platforms like LeetCode, where I
+          continuously push myself to learn new techniques and improve my
+          problem-solving abilities.
+        </p>
+
+        <label for="toggle-more" class="red-more">
+          <span class="read-label"></span>
+        </label>
       </div>
     </header>
 
@@ -46,8 +62,9 @@
         </div>
       </div>
     </section>
+
     <section id="project-section">
-      <h2>My Top 3 projects</h2>
+      <h2>My Top 3 Projects</h2>
       <div class="flex-container">
         <details>
           <summary>
@@ -55,13 +72,8 @@
             <h3>Blog</h3>
           </summary>
           <div class="text-container">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur cumque laborum vel iure reiciendis omnis qui,
-              incidunt assumenda placeat quae fugit tempora, dolorem
-              perspiciatis. Adipisci ut itaque perferendis facere fugit?
-            </p>
-            <a href="" class="project-link">visit website</a>
+            <p>Description of the Blog project goes here.</p>
+            <a href="" class="project-link">Visit Website</a>
           </div>
         </details>
         <details>
@@ -70,32 +82,23 @@
             <h3>Spin</h3>
           </summary>
           <div class="text-container">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur cumque laborum vel iure reiciendis omnis qui,
-              incidunt assumenda placeat quae fugit tempora, dolorem
-              perspiciatis. Adipisci ut itaque perferendis facere fugit?
-            </p>
-            <a href="" class="project-link">visit website</a>
+            <p>Description of the Spin project goes here.</p>
+            <a href="" class="project-link">Visit Website</a>
           </div>
         </details>
         <details>
           <summary>
             <span class="number">3</span>
-            <h3>Student management</h3>
+            <h3>Student Management</h3>
           </summary>
           <div class="text-container">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur cumque laborum vel iure reiciendis omnis qui,
-              incidunt assumenda placeat quae fugit tempora, dolorem
-              perspiciatis. Adipisci ut itaque perferendis facere fugit?
-            </p>
-            <a href="" class="project-link">visit website</a>
+            <p>Description of the Student Management project goes here.</p>
+            <a href="" class="project-link">Visit Website</a>
           </div>
         </details>
       </div>
     </section>
+
     <footer>
       <div class="grid-container">
         <span id="at-symbol">@</span>
@@ -104,11 +107,9 @@
           <a href="mailto:samkelorozani290@gmail.com">
             samkelorozani290@gmail.com
           </a>
-
           <p>0683237040</p>
         </div>
       </div>
     </footer>
   </body>
 </html>
-
