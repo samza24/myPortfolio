@@ -61,6 +61,12 @@ header img {
   margin-right: 20px;
 }
 
+header img:hover {
+  scale: 1.09;
+  margin-right: 25px;
+}
+
+
 header .container {
   width: 850px;
   max-width: 100%;
@@ -518,4 +524,5 @@ header img {
   clip-path: inset(50%);
   border: 0;
 }
+
 
