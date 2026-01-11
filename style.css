@@ -58,6 +58,7 @@ header img {
   object-fit: cover;
   animation: zoomIn 2s ease-in-out;
   box-shadow: 0 0 30px rgba(255, 59, 59, 0.5);
+  margin-right: 20px;
 }
 
 header .container {
@@ -517,3 +518,4 @@ header img {
   clip-path: inset(50%);
   border: 0;
 }
+
